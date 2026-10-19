@@ -1,0 +1,508 @@
+[
+  {
+    "category": "Shawarma",
+    "items": [
+      {
+        "name": "Classic Kuboos Roll",
+        "price": 100
+      },
+      {
+        "name": "Classic Kuboos Plate",
+        "price": 130
+      },
+      {
+        "name": "Classic Romali Roll",
+        "price": 120
+      },
+      {
+        "name": "Classic Romali Plate",
+        "price": 150
+      },
+      {
+        "name": "Full Meat Kuboos Roll",
+        "price": 120
+      },
+      {
+        "name": "Full Meat Kuboos Plate",
+        "price": 150
+      },
+      {
+        "name": "Full Meat Romali Roll",
+        "price": 140
+      },
+      {
+        "name": "Full Meat Romali Plate",
+        "price": 170
+      },
+      {
+        "name": "Full Meat Cheesy Roll",
+        "price": 150
+      },
+      {
+        "name": "Full Meat Cheesy Plate",
+        "price": 180
+      },
+      {
+        "name": "Lebanese Roll",
+        "price": 140
+      },
+      {
+        "name": "Lebanese Plate",
+        "price": 170
+      },
+      {
+        "name": "Peri-peri Roll",
+        "price": 130
+      },
+      {
+        "name": "Peri-peri Plate",
+        "price": 160
+      },
+      {
+        "name": "Mexican Roll",
+        "price": 140
+      },
+      {
+        "name": "Mexican Plate",
+        "price": 170
+      },
+      {
+        "name": "Mexican Cheesy Roll",
+        "price": 150
+      },
+      {
+        "name": "Mexican Cheesy Plate",
+        "price": 180
+      }
+    ]
+  },
+  {
+    "category": "Burger",
+    "items": [
+      {
+        "name": "Classic Veg Burger",
+        "price": 139
+      },
+      {
+        "name": "Classic Chicken Burger",
+        "price": 149
+      },
+      {
+        "name": "Zinger Burger",
+        "price": 179
+      },
+      {
+        "name": "Sticky BBQ Burger",
+        "price": 189
+      },
+      {
+        "name": "Sweet Chilli Burger",
+        "price": 189
+      },
+      {
+        "name": "Mexican Cheese Burger",
+        "price": 199
+      },
+      {
+        "name": "Double Chicken Burger",
+        "price": 215
+      },
+      {
+        "name": "Kindel Zinger Stacker",
+        "price": 230
+      }
+    ]
+  },
+  {
+    "category": "Shawai",
+    "items": [
+      {
+        "name": "Normal Shawai",
+        "sizes": {
+          "quarter": 160,
+          "half": 310,
+          "full": 620
+        }
+      },
+      {
+        "name": "Masala Shawai",
+        "sizes": {
+          "quarter": 170,
+          "half": 320,
+          "full": 630
+        }
+      }
+    ]
+  },
+  {
+    "category": "Alfaham",
+    "items": [
+      {
+        "name": "Barbeque Alfaham",
+        "sizes": {
+          "quarter": 180,
+          "half": 340,
+          "full": 700
+        }
+      },
+      {
+        "name": "Pepper Alfaham",
+        "sizes": {
+          "quarter": 160,
+          "half": 310,
+          "full": 620
+        }
+      },
+      {
+        "name": "Kanthari Alfaham",
+        "sizes": {
+          "quarter": 170,
+          "half": 310,
+          "full": 600
+        }
+      },
+      {
+        "name": "Peri-peri Alfaham",
+        "sizes": {
+          "quarter": 160,
+          "half": 310,
+          "full": 600
+        }
+      },
+      {
+        "name": "Honey Alfaham",
+        "sizes": {
+          "quarter": 160,
+          "half": 310,
+          "full": 600
+        }
+      },
+      {
+        "name": "Honey Chilli Alfaham",
+        "sizes": {
+          "quarter": 170,
+          "half": 320,
+          "full": 660
+        }
+      }
+    ]
+  },
+  {
+    "category": "Fries",
+    "items": [
+      {
+        "name": "Normal fries",
+        "price": 100
+      },
+      {
+        "name": "Spicy fries",
+        "price": 130
+      },
+      {
+        "name": "Loaded",
+        "price": 180
+      },
+      {
+        "name": "Spicy loaded",
+        "price": 200
+      },
+      {
+        "name": "Mexican Cheesy Loaded",
+        "price": 220
+      }
+    ]
+  },
+  {
+    "category": "Shakes",
+    "items": [
+      {
+        "name": "Sharja",
+        "price": 70
+      },
+      {
+        "name": "Avocado",
+        "price": 80
+      },
+      {
+        "name": "Mango",
+        "price": 80
+      },
+      {
+        "name": "Shamam",
+        "price": 80
+      },
+      {
+        "name": "Vanilla",
+        "price": 80
+      },
+      {
+        "name": "Apple",
+        "price": 90
+      },
+      {
+        "name": "Chikku",
+        "price": 90
+      },
+      {
+        "name": "Snickers",
+        "price": 90
+      },
+      {
+        "name": "KitKat",
+        "price": 90
+      },
+      {
+        "name": "Cocochoco",
+        "price": 90
+      },
+      {
+        "name": "Oreo",
+        "price": 90
+      },
+      {
+        "name": "Butterscotch",
+        "price": 90
+      },
+      {
+        "name": "Chocolate",
+        "price": 90
+      },
+      {
+        "name": "Pista",
+        "price": 90
+      },
+      {
+        "name": "Pomegranate (Anar)",
+        "price": 90
+      }
+    ]
+  },
+  {
+    "category": "Mojito",
+    "items": [
+      {
+        "name": "Mint",
+        "price": 80
+      },
+      {
+        "name": "Pineapple",
+        "price": 90
+      },
+      {
+        "name": "Grapes",
+        "price": 90
+      },
+      {
+        "name": "Passion fruit",
+        "price": 90
+      },
+      {
+        "name": "Guava",
+        "price": 90
+      },
+      {
+        "name": "Green apple",
+        "price": 100
+      },
+      {
+        "name": "Blue curacao",
+        "price": 100
+      },
+      {
+        "name": "Strawberry",
+        "price": 100
+      },
+      {
+        "name": "Kiwi",
+        "price": 110
+      },
+      {
+        "name": "Lychee",
+        "price": 110
+      }
+    ]
+  },
+  {
+    "category": "Fresh Juice",
+    "items": [
+      {
+        "name": "Watermelon",
+        "price": 60
+      },
+      {
+        "name": "Orange",
+        "price": 70
+      },
+      {
+        "name": "Pineapple",
+        "price": 70
+      },
+      {
+        "name": "Grapes",
+        "price": 70
+      },
+      {
+        "name": "Apple",
+        "price": 80
+      },
+      {
+        "name": "Mosambi",
+        "price": 80
+      },
+      {
+        "name": "Mango",
+        "price": 80
+      }
+    ]
+  },
+  {
+    "category": "Kulukki",
+    "items": [
+      {
+        "name": "Mint",
+        "price": 40
+      },
+      {
+        "name": "Grape",
+        "price": 40
+      },
+      {
+        "name": "Green apple",
+        "price": 50
+      },
+      {
+        "name": "Watermelon",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "category": "Lime",
+    "items": [
+      {
+        "name": "Fresh lime",
+        "price": 30
+      },
+      {
+        "name": "Grapes lime",
+        "price": 40
+      },
+      {
+        "name": "Pineapple lime",
+        "price": 40
+      },
+      {
+        "name": "Watermelon lime",
+        "price": 40
+      },
+      {
+        "name": "Mint lime",
+        "price": 40
+      },
+      {
+        "name": "Blue lime",
+        "price": 40
+      }
+    ]
+  },
+  {
+    "category": "Falooda",
+    "items": [
+      {
+        "name": "Normal",
+        "price": 100
+      },
+      {
+        "name": "Royal",
+        "price": 140
+      },
+      {
+        "name": "Dry fruits",
+        "price": 170
+      }
+    ]
+  },
+  {
+    "category": "Tender Coconut",
+    "items": [
+      {
+        "name": "Tender Coconut",
+        "price": 80
+      },
+      {
+        "name": "Tender Boost",
+        "price": 90
+      },
+      {
+        "name": "Tender Horlicks",
+        "price": 90
+      },
+      {
+        "name": "Tender Pineapple",
+        "price": 100
+      },
+      {
+        "name": "Tender Watermelon",
+        "price": 100
+      },
+      {
+        "name": "Tender Orange",
+        "price": 100
+      },
+      {
+        "name": "Tender Grape",
+        "price": 100
+      },
+      {
+        "name": "Tender Mango",
+        "price": 100
+      },
+      {
+        "name": "Tender Snickers",
+        "price": 110
+      },
+      {
+        "name": "Tender KitKat",
+        "price": 110
+      }
+    ]
+  },
+  {
+    "category": "Avil Milk",
+    "items": [
+      {
+        "name": "Avil milk",
+        "price": 60
+      },
+      {
+        "name": "Tender avil",
+        "price": 90
+      }
+    ]
+  },
+  {
+    "category": "Iced Coffee",
+    "items": [
+      {
+        "name": "Iced coffee",
+        "price": 80
+      },
+      {
+        "name": "Iced vanilla coffee",
+        "price": 90
+      },
+      {
+        "name": "Iced mocha coffee",
+        "price": 100
+      },
+      {
+        "name": "Iced hazelnut coffee",
+        "price": 100
+      },
+      {
+        "name": "Iced caramel coffee",
+        "price": 100
+      }
+    ]
+  }
+]

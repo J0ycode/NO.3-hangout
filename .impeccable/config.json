@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "italic-serif-display",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-19T18:15:50.681Z",
+        "reason": "Claude decided: editorial magazine register chosen as the design direction from the Dribbble reference"
+      }
+    ]
+  }
+}
