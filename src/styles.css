@@ -160,12 +160,9 @@ section>*{max-width:var(--max);margin-inline:auto}
 .menu-jump button[aria-selected=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .search-status{margin:-8px 0 20px;color:var(--muted);font-weight:500}
 .cat{scroll-margin-top:170px}
-.action-bar{display:none}
 @media (max-width:820px){
   .menu-tools{grid-template-columns:1fr;gap:10px}
-  .action-bar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:15;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(251,250,247,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line)}
-  .action-bar .btn{justify-content:center}
-  .footer{padding-bottom:96px}
+
   .cat{scroll-margin-top:220px}
 }
 

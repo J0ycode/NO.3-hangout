@@ -7,7 +7,6 @@ import Story from './components/Story';
 import Gallery from './components/Gallery';
 import Visit from './components/Visit';
 import Footer from './components/Footer';
-import ActionBar from './components/ActionBar';
 import { useReveal } from './lib';
 
 export default function App() {
@@ -26,7 +25,6 @@ export default function App() {
         <Visit />
       </main>
       <Footer />
-      <ActionBar />
     </>
   );
 }
