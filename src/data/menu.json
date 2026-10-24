@@ -138,19 +138,19 @@
     "category": "Alfaham",
     "items": [
       {
+        "name": "Normal Alfaham",
+        "sizes": {
+          "quarter": 160,
+          "half": 310,
+          "full": 620
+        }
+      },
+      {
         "name": "Barbeque Alfaham",
         "sizes": {
           "quarter": 180,
           "half": 340,
           "full": 700
-        }
-      },
-      {
-        "name": "Pepper Alfaham",
-        "sizes": {
-          "quarter": 160,
-          "half": 310,
-          "full": 620
         }
       },
       {
@@ -234,10 +234,6 @@
       {
         "name": "Vanilla",
         "price": 80
-      },
-      {
-        "name": "Apple",
-        "price": 90
       },
       {
         "name": "Chikku",

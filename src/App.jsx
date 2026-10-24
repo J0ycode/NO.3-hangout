@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Signatures from './components/Signatures';
+import Combos from './components/Combos';
 import Ticker from './components/Ticker';
 import Menu from './components/Menu';
 import Story from './components/Story';
@@ -18,7 +18,7 @@ export default function App() {
       <main>
         <Hero />
         <Ticker />
-        <Signatures />
+        <Combos />
         <Menu />
         <Story />
         <Gallery />

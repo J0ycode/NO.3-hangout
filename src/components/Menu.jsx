@@ -94,10 +94,6 @@ export default function Menu() {
           <Category c={current} />
         </div>
       )}
-
-      <p className="menu-foot">
-        <a className="link" href={site.printedMenu} target="_blank" rel="noopener noreferrer">Open the printed menu (image) →</a>
-      </p>
     </section>
   );
 }

@@ -4,3 +4,9 @@ Photos from Unsplash (free under the Unsplash License). Replace with the café's
 - alfaham.jpg — https://unsplash.com/photos/Xfq9nVqVl7Y
 - falooda.jpg — https://unsplash.com/photos/vA0_270so1U (VD Photography)
 - mango.jpg — https://unsplash.com/photos/KlVIYmGVRQ8 (Julia Zyablova)
+- burger.jpg — https://unsplash.com/photos/UDYjeBwFZf8 (Sultan Abdulrazzaq)
+- fries.jpg — https://unsplash.com/photos/4Z9mJ2wIqLk (Jay Gajjar)
+- mojito.jpg — https://unsplash.com/photos/aM3LR10BeAc (kimia kazemi)
+- iced-coffee.jpg — https://unsplash.com/photos/vZOZJH_xkUk (Nathan Dumlao)
+- orange-juice.jpg — https://unsplash.com/photos/kkrXVKK-jhg (Abhishek Hajare)
+- shawai.jpg — https://unsplash.com/photos/hsoJOlqsBeU
