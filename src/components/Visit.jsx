@@ -11,7 +11,7 @@ export default function Visit() {
           {site.addressLines.map((l) => <span key={l}>{l}</span>)}
         </address>
         <div className="hero-actions">
-          <a className="btn" href={site.directionsUrl} target="_blank" rel="noopener noreferrer">Get directions</a>
+          <a className="btn" href={site.directionsUrl} target="_blank" rel="noopener noreferrer">Get directions to Maroor</a>
           {site.phone && <a className="btn btn-ghost-dark" href={`tel:${site.phone.replace(/\s/g, '')}`}>Call {site.phone}</a>}
         </div>
         {site.hours.length > 0 && (

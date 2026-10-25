@@ -28,7 +28,7 @@ export default function Hero() {
           <span className="hero-accent hero-in" style={{ '--d': 2 }}>Cold in the glass.</span>
         </h1>
         <p className="hero-lede hero-in" style={{ '--d': 3 }}>
-          Shawarma, alfaham and shawai, burgers and loaded fries, with fresh juices, shakes, mojitos and falooda — in Maroor, Mallassery.
+          Shawarma, alfaham and shawai hot off the grill, with fresh juices, shakes, mojitos and falooda cold in the glass — at No.3 Hangout in Maroor, Mallassery, Pathanamthitta.
         </p>
         <div className="hero-actions hero-in" style={{ '--d': 4 }}>
           <a className="btn" href="#menu">See the full menu</a>

@@ -399,3 +399,19 @@ section:not(.hero) .accent{color:var(--ember-deep);-webkit-text-stroke:0}
 .glow-a{background:rgba(201,115,58,.22)}
 .glow-b{background:rgba(201,115,58,.12)}
 .menu-panel[hidden]{display:none}
+
+/* ---- FAQ ---- */
+.faq{background:var(--surface)}
+.faq-list{max-width:860px;border-top:1px solid var(--line)}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-item summary{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px 0;cursor:pointer;list-style:none}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'+';font-family:var(--display);font-size:1.6rem;color:var(--ember-deep);transition:transform .25s ease}
+.faq-item[open] summary::after{transform:rotate(45deg)}
+.faq-item h3{font-size:1.15rem;letter-spacing:-.01em}
+.faq-item p{padding:0 0 22px;max-width:70ch;color:var(--muted);font-size:1.02rem}
+.faq-item a{color:var(--ember-deep);font-weight:600}
+.footer .share{justify-self:end;color:var(--paper);font-weight:600;text-underline-offset:4px}
+.footer .share:hover{color:var(--ember)}
+@media (max-width:820px){.footer .share{justify-self:start}}
+.faq-list{max-width:var(--max)}

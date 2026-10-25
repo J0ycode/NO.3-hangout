@@ -5,6 +5,7 @@ import Ticker from './components/Ticker';
 import Menu from './components/Menu';
 import Story from './components/Story';
 import Gallery from './components/Gallery';
+import Faq from './components/Faq';
 import Visit from './components/Visit';
 import Footer from './components/Footer';
 import { useReveal } from './lib';
@@ -22,6 +23,7 @@ export default function App() {
         <Menu />
         <Story />
         <Gallery />
+        <Faq />
         <Visit />
       </main>
       <Footer />

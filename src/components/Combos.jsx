@@ -13,7 +13,7 @@ function Picker({ title, list, value, onPick }) {
       <div className="picker-row">
         {list.map((x) => (
           <button key={x.id} type="button" className="pick" aria-pressed={x.id === value} onClick={() => onPick(x.id)}>
-            <img src={x.image} alt="" width="900" height="700" loading="lazy" />
+            <img src={x.image} alt={x.label + " at No.3 Hangout"} width="900" height="700" loading="lazy" />
             <span className="pick-name">{x.label}</span>
             <span className="pick-price">₹{x.price}{x.sized ? ' · quarter' : ''}</span>
           </button>
@@ -80,7 +80,7 @@ export default function Combos() {
             <p className="combo-total"><span>Together</span><strong>₹{total}</strong></p>
             <div className="combo-actions">
               {site.phone && <a className="btn" href={`tel:${site.phone.replace(/\s/g, '')}`}>Call to order</a>}
-              <a className="btn btn-ghost-dark" href="#menu">Full menu</a>
+              <a className="btn btn-ghost-dark" href="#menu">See all prices</a>
             </div>
           </div>
           <div className="combo-nav">
