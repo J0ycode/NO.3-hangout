@@ -398,3 +398,4 @@ section:not(.hero) .accent{color:var(--ember-deep);-webkit-text-stroke:0}
 .combo-card,.pick,.menu-panel,.story-badge{background:var(--surface)}
 .glow-a{background:rgba(201,115,58,.22)}
 .glow-b{background:rgba(201,115,58,.12)}
+.menu-panel[hidden]{display:none}

@@ -41,8 +41,6 @@ export default function Menu() {
       .filter((c) => c.items.length);
   }, [q]);
   const count = results.reduce((n, c) => n + c.items.length, 0);
-  const current = menu.find((c) => c.category === active);
-  const dark = FOOD.includes(active);
 
   const pick = (cat) => { setActive(cat); setQuery(''); };
   const onKey = (e, i) => {
@@ -70,6 +68,7 @@ export default function Menu() {
               key={c.category}
               id={tabId(c.category)}
               role="tab"
+              aria-controls={'panel-' + tabId(c.category)}
               type="button"
               aria-selected={!q && c.category === active}
               tabIndex={c.category === active ? 0 : -1}
@@ -88,11 +87,13 @@ export default function Menu() {
           {results.map((c) => <Category key={c.category} c={c} showTitle />)}
         </div>
       ) : (
-        <div className="board board-light menu-panel" role="tabpanel" aria-labelledby={tabId(active)} key={active}>
-          <p className="board-label">{dark ? 'From the grill' : 'From the bar'} · {current.items.length} items</p>
-          <h3 className="panel-title">{active}</h3>
-          <Category c={current} />
-        </div>
+        menu.map((c) => (
+          <div key={c.category} className="board board-light menu-panel" role="tabpanel" id={'panel-' + tabId(c.category)} aria-labelledby={tabId(c.category)} hidden={c.category !== active}>
+            <p className="board-label">{FOOD.includes(c.category) ? 'From the grill' : 'From the bar'} · {c.items.length} items</p>
+            <h3 className="panel-title">{c.category}</h3>
+            <Category c={c} />
+          </div>
+        ))
       )}
     </section>
   );

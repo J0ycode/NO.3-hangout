@@ -3,3 +3,4 @@ dist
 .claude-flow
 .impeccable/hook.cache.json
 .env
+dist-ssr

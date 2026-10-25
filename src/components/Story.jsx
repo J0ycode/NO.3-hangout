@@ -8,7 +8,7 @@ export default function Story() {
       </figure>
       <div className="story-body" data-reveal>
         <p className="kicker">Our story</p>
-        <blockquote className="story-quote">Simple moments.<br /><span className="accent">Better days.</span></blockquote>
+        <h2 className="story-quote">Simple moments.<br /><span className="accent">Better days.</span></h2>
         {site.story.map((p) => <p key={p}>{p}</p>)}
         <a className="link" href="#visit">Come say hello →</a>
       </div>
